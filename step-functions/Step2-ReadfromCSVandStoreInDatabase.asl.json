@@ -30,7 +30,7 @@
       "OutputPath": "$.Payload",
       "Parameters": {
         "Payload.$": "$",
-        "FunctionName": "arn:aws:lambda:us-east-2:722716315591:function:myNodeJSRecordInDynamoDBFunction:$LATEST"
+        "FunctionName": "arn:aws:lambda:us-east-2:722716315591:function:NodeJSRecordInDynamoDBFunction:$LATEST"
       },
       "Retry": [
         {

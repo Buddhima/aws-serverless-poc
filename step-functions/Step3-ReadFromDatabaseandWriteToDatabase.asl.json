@@ -8,7 +8,7 @@
       "OutputPath": "$.Payload",
       "Parameters": {
         "Payload.$": "$",
-        "FunctionName": "arn:aws:lambda:us-east-2:722716315591:function:myNodeJSRecordOutDynamoDBFunction:$LATEST"
+        "FunctionName": "arn:aws:lambda:us-east-2:722716315591:function:NodeJSRecordOutDynamoDBFunction:$LATEST"
       },
       "Retry": [
         {
@@ -30,7 +30,7 @@
       "OutputPath": "$.Payload",
       "Parameters": {
         "Payload.$": "$",
-        "FunctionName": "arn:aws:lambda:us-east-2:722716315591:function:myNodeJSRemainingRecordInDynamoDBFunction:$LATEST"
+        "FunctionName": "arn:aws:lambda:us-east-2:722716315591:function:NodeJSRemainingRecordInDynamoDBFunction:$LATEST"
       },
       "Retry": [
         {

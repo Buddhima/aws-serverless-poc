@@ -8,7 +8,7 @@
       "OutputPath": "$.Payload",
       "Parameters": {
         "Payload.$": "$",
-        "FunctionName": "arn:aws:lambda:us-east-2:722716315591:function:myNodeJSHTTPFunction:$LATEST"
+        "FunctionName": "arn:aws:lambda:us-east-2:722716315591:function:NodeJSHTTPFunction:$LATEST"
       },
       "Retry": [
         {
